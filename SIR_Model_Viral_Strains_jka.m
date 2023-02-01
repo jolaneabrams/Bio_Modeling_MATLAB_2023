@@ -60,7 +60,7 @@ plot(tBefore,yBefore(:,2),'LineWidth',2); hold on;
 plot(t,y(:,2:3));
 plot(t,y(:,2)+y(:,3));
 ylim([0 0.06]);
-legend({'Past','Strain 1','Strain 2','Total Infections'});
+legend({'Past','Strain 1','Strain 2','Total Infections'},'Location','northeastoutside');
 set(gca,'XTick',0:50:max(tspan));
 set(gca,'XTickLabel',datestr(dates(1:50:length(dates)),'mm/dd/yy'));
 title('Infections','FontSize',18);
