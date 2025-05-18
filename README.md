@@ -1,3 +1,3 @@
-# MATLAB
-Materials for BIS20Q Winter 2023
-Biological modeling with MATLAB
+# Bio_Modeling_MATLAB_2023
+
+Materials for BIS 20Q at UC Davis: Biological modeling with MATLAB
